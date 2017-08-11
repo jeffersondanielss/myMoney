@@ -3,3 +3,11 @@
   bottom: 0;
   width: 100%;
 }
+
+.table-actions {
+  width: 150px;
+}
+
+button.btn {
+  margin-left: 5px;
+}
