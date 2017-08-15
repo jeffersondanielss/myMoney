@@ -13,3 +13,11 @@
 .login-box a:hover {
   cursor: pointer;
 }
+
+.login-logo, .register-logo {
+  color: #FFFFFF;
+}
+
+.skin-blue .wrapper {
+  height: 100vh;
+}
