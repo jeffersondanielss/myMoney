@@ -5,10 +5,13 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "prod": "pm2 start src/loader.js --name my-money-backend"
+    "prod": "pm2 start src/loader.js --name my-money-backend",
+    "prod-stop": "pm2 stop all",
+    "prod-monit": "pm2 monit",
+    "prod-status": "pm2 status"
   },
   "dependencies": {
-    "bcrypt": "1.0.2",
+    "bcrypt": "^1.0.2",
     "body-parser": "1.15.2",
     "express": "4.14.0",
     "express-query-int": "1.0.1",
